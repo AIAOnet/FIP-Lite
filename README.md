@@ -68,6 +68,14 @@ def my_function(arg1: str) -> dict:
     return {"result": f"You said {arg1}"}
 
 ```
+--add to PROMPT_TEMPLATE 
+```bash
+Functions available:
+- generate_report(start_date: string, end_date: string, region: [NA, EU, ME, APAC])
+- say_hello(name: string)
+- New Functions
+```
+
 5. **LLMs Tested**
 -deepseek/deepseek-r1:free via OpenRouter.ai
 6. **License**
