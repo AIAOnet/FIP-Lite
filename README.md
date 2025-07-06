@@ -15,6 +15,8 @@ FIP-Lite (Function Invocation Protocol Lite) is a lightweight framework that ena
 ---
 
 ## 📁 Project Structure
+
+```bash
 fip-lite/
 ├── fip_lite.py # Extracts and routes function calls from LLM output
 ├── fip_runtime.py # Registry and executor for Python functions
@@ -22,9 +24,8 @@ fip-lite/
 ├── main.py # CLI interface for testing
 ├── requirements.txt # Dependencies
 ├── .env.example # Sample env file (e.g., API keys)
-├── .gitignore # Ignore sensitive and unnecessary files
 └── README.md # You're here!
-
+```
 ---
 
 ## 🚀 How to Run
